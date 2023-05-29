@@ -1,0 +1,35 @@
+__________________________________
+6. Cache
+
+Every query is cached by default
+ 
+User does not have to see loading indicator every time as queries are cached
+
+Cache time can be configured for specific queries
+
+When you are under cache time, The cached data is returned and background request is made to fetch data 
+
+If data is same then you wont see any change on UI
+
+If you move away from query then it is marked inactive and it is garbage collected after 5 seconds
+
+__________________________________
+7. Stale time
+
+Stale time is the time for which query wont be refetched 
+
+Query remains fresh for until stale time runs out
+
+You can set staleTime to reduce network requests
+
+Default staleTime = 0s
+
+__________________________________
+
+8. Refetch defaults
+
+Default cache time = 5min
+Default stale time = 0s
+
+refetchOnMount = Query refetches on mount if data is stale
+refetchOnWindowFocus = 
