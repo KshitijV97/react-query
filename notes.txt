@@ -32,4 +32,19 @@ Default cache time = 5min
 Default stale time = 0s
 
 refetchOnMount = Query refetches on mount if data is stale
-refetchOnWindowFocus = 
+refetchOnWindowFocus = Whether to fetch once you come back to window, Must be true 
+
+
+__________________________________
+9. Polling data
+
+refetchInterval 
+refetchIntervalInBackground
+Default value is false
+
+__________________________________
+10. useQuery on Click
+
+Inform useQuery not to fire request when component mounts
+
+enabled: false
