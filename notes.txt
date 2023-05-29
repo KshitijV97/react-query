@@ -48,3 +48,9 @@ __________________________________
 Inform useQuery not to fire request when component mounts
 
 enabled: false
+
+__________________________________
+11. onSuccess and onError
+
+Query will retry before calling onError callback
+React query automatically injects the data or error as params in the callbacks
