@@ -54,3 +54,12 @@ __________________________________
 
 Query will retry before calling onError callback
 React query automatically injects the data or error as params in the callbacks
+
+__________________________________
+14. Query by id  
+
+You have an item
+On clicking that item you want to fetch details of that item
+Fetching details of product on ecommerce site 
+
+>

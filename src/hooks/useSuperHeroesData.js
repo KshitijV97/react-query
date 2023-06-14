@@ -9,6 +9,6 @@ export const useSuperHeroesData = (onSuccess, onError) => {
   return useQuery(["super-heroes"], fetchSuperheroes, {
     onSuccess,
     onError,
-    select: (data) => data.data.map((h) => h.name),
+    // select: (data) => data.data.map((h) => h.name), commenting as we require heroId for QueryById
   });
 };
