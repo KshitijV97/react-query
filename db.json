@@ -29,5 +29,17 @@
       "id": 3,
       "name": "Rachel Green"
     }
+  ],
+  "users": [
+    {
+      "id": "kshitij@test.com",
+      "teamId": "synthix"
+    }
+  ],
+  "teams": [
+    {
+      "id": "synthix",
+      "stack": ["golang", "javascript"]
+    }
   ]
 }
