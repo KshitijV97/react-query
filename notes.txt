@@ -62,4 +62,10 @@ You have an item
 On clicking that item you want to fetch details of that item
 Fetching details of product on ecommerce site 
 
->
+__________________________________
+15. Parallel queries
+
+Single component needs to call multiple endpoints to fetch data
+In React query it is as simple as calling useQuery twice
+
+
