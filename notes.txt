@@ -68,4 +68,10 @@ __________________________________
 Single component needs to call multiple endpoints to fetch data
 In React query it is as simple as calling useQuery twice
 
+_________________________________
+16. Dynamic parallel queries
+
+The array of heroIds might be dynamic based on user selection, Hence number of queries will change
+How will you do this in useEffect + useState? You need an endpoint which will take your dynamic array
+
 
